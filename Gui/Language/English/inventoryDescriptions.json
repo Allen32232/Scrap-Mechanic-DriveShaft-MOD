@@ -1,0 +1,22 @@
+{
+	"d5a0f001-0001-4d53-8001-000000000001": {
+		"title": "Drive Shaft Node",
+		"description": "Drive shaft connection endpoint\nConnect two nodes with logic wire\nLink one node to the controller"
+	},
+	"d5a0f002-0002-4d53-8002-000000000002": {
+		"title": "Drive Shaft Controller",
+		"description": "Double U-joint drive shaft controller\nPress E to open settings panel\nAdjust color and scale"
+	},
+	"d5a0f003-0003-4d53-8003-000000000003": {
+		"title": "Drive Shaft Speed Sensor",
+		"description": "Mount on wheels or rotating parts\nConnect to controller\nShaft follows sensor rotation"
+	},
+	"d5a0f007-0007-4d53-8007-000000000007": {
+		"title": "Drive Shaft Node (1x2)",
+		"description": "For even-width vehicles\nOccupies 1x2 block space\nSame usage as standard node"
+	},
+	"d5a0f008-0008-4d53-8008-000000000008": {
+		"title": "Drive Shaft Node (2x2)",
+		"description": "For even-width vehicles\nOccupies 2x2 block space\nSame usage as standard node"
+	}
+}

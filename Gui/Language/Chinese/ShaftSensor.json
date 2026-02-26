@@ -1,0 +1,9 @@
+{
+	"interactionText": "传感器设置",
+	"guiTitle": "#ffcc00传感器设置",
+	"reverseLabel": "#ffffff反向输出:",
+	"reverseOff": "关",
+	"reverseOn": "开",
+	"ratioLabel": "#ffffff输出倍率:",
+	"ratioUnit": "x"
+}

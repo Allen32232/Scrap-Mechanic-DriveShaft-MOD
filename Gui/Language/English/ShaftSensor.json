@@ -1,0 +1,9 @@
+{
+	"interactionText": "Sensor Settings",
+	"guiTitle": "#ffcc00Sensor Settings",
+	"reverseLabel": "#ffffffReverse Output:",
+	"reverseOff": "Off",
+	"reverseOn": "On",
+	"ratioLabel": "#ffffffOutput Ratio:",
+	"ratioUnit": "x"
+}

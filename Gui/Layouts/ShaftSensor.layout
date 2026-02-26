@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundInteractableWide" position_real="0 0 0.38 0.36" name="BackPanel">
+        <!-- 标题 -->
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.04 1 0.14" name="guiTitle">
+            <Property key="Caption" value="#ffcc00Sensor Settings"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="X_Hud_Alert"/>
+            <Property key="TextColour" value="#ffcc00"/>
+        </Widget>
+
+        <!-- 主内容区域 -->
+        <Widget type="Widget" skin="SearchBarBackground" position_real="0.06 0.20 0.88 0.74" name="MainContentPanel">
+
+            <!-- 行容器 1: 反向输出开关 -->
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.05 0.08 0.9 0.36" name="ReverseRow">
+                <Widget type="TextBox" skin="TextBox" position_real="0 0 0.45 1" name="ReverseLabel">
+                    <Property key="Caption" value="#ffffffReverse Output:"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
+                    <Property key="FontName" value="SM_ItemTitle"/>
+                </Widget>
+                <Widget type="Button" skin="SettingsButton" position_real="0.48 0.15 0.22 0.7" name="ReverseOff">
+                    <Property key="Caption" value="Off"/>
+                    <Property key="FontName" value="SM_ItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+                <Widget type="Button" skin="SettingsButton" position_real="0.72 0.15 0.22 0.7" name="ReverseOn">
+                    <Property key="Caption" value="On"/>
+                    <Property key="FontName" value="SM_ItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+            </Widget>
+
+            <!-- 行容器 2: 输出倍率 -->
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.05 0.54 0.9 0.36" name="RatioRow">
+                <Widget type="TextBox" skin="TextBox" position_real="0 0 0.45 1" name="RatioLabel">
+                    <Property key="Caption" value="#ffffffOutput Ratio:"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
+                    <Property key="FontName" value="SM_ItemTitle"/>
+                </Widget>
+                <Widget type="EditBox" skin="EditBox_LiftInput" position_real="0.48 0.15 0.36 0.7" name="RatioInput">
+                    <Property key="Caption" value="1.0"/>
+                    <Property key="FontName" value="SM_ItemTitle"/>
+                    <Property key="TextShadow" value="true"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="MaxTextLength" value="6"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.86 0 0.12 1" name="RatioUnit">
+                    <Property key="Caption" value="#888888x"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
+                    <Property key="FontName" value="SM_ItemTitle"/>
+                </Widget>
+            </Widget>
+
+        </Widget>
+    </Widget>
+</MyGUI>
