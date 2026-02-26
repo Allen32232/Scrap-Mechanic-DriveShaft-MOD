@@ -1,0 +1,278 @@
+{
+	"partList": [
+		{
+			"uuid": "d5a0f001-0001-4d53-8001-000000000001",
+			"name": "obj_driveshaft_node",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/part_dif.png",
+									"$MOD_DATA/Objects/Textures/part_asg.png"
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/Cylinder.obj"
+					}
+				]
+			},
+			"color": "202020",
+			"hull": {
+				"x": 1, "y": 1, "z": 1,
+				"col": "$MOD_DATA/Objects/Mesh/Cylinder.obj"
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"buoyancy": 3,
+				"density": 1,
+				"durability": 7,
+				"friction": 2
+			},
+			"flammable": false,
+			"scripted": {
+				"filename": "$MOD_DATA/Scripts/ShaftNode.lua",
+				"classname": "ShaftNode"
+			}
+		},
+		{
+			"uuid": "d5a0f002-0002-4d53-8002-000000000002",
+			"name": "obj_driveshaft_controller",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/controller_dif.png",
+									"$MOD_DATA/Objects/Textures/controller_asg.png"
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/Controller.obj"
+					}
+				]
+			},
+			"color": "5D6B78",
+			"hull": {
+				"x": 1, "y": 1, "z": 1,
+				"col": "$MOD_DATA/Objects/Mesh/ControllerCollision.obj"
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"buoyancy": 3,
+				"density": 3,
+				"durability": 7,
+				"friction": 5
+			},
+			"flammable": false,
+			"scripted": {
+				"filename": "$MOD_DATA/Scripts/ShaftController.lua",
+				"classname": "ShaftController"
+			}
+		},
+		{
+			"uuid": "d5a0f003-0003-4d53-8003-000000000003",
+			"name": "obj_driveshaft_sensor",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/glass_dif.png",
+									"$MOD_DATA/Objects/Textures/glass_asg.png"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/Cylinder.obj"
+					}
+				]
+			},
+			"color": "FFFFFF",
+			"hull": {
+				"x": 1, "y": 1, "z": 1,
+				"col": "$MOD_DATA/Objects/Mesh/Cylinder.obj"
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"buoyancy": 3,
+				"density": 1,
+				"durability": 7,
+				"friction": 2
+			},
+			"flammable": false,
+			"scripted": {
+				"filename": "$MOD_DATA/Scripts/ShaftSensor.lua",
+				"classname": "ShaftSensor"
+			}
+		},
+		{
+			"uuid": "d5a0f007-0007-4d53-8007-000000000007",
+			"name": "obj_driveshaft_node_1x2",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/part_dif.png",
+									"$MOD_DATA/Objects/Textures/part_asg.png"
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/Cylinder.obj"
+					}
+				]
+			},
+			"color": "202020",
+			"hull": {
+				"x": 1, "y": 1, "z": 2,
+				"col": "$MOD_DATA/Objects/Mesh/Cylinder.obj"
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"buoyancy": 3,
+				"density": 1,
+				"durability": 7,
+				"friction": 2
+			},
+			"flammable": false,
+			"scripted": {
+				"filename": "$MOD_DATA/Scripts/ShaftNode.lua",
+				"classname": "ShaftNode"
+			}
+		},
+		{
+			"uuid": "d5a0f008-0008-4d53-8008-000000000008",
+			"name": "obj_driveshaft_node_2x2",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/part_dif.png",
+									"$MOD_DATA/Objects/Textures/part_asg.png"
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/Cylinder.obj"
+					}
+				]
+			},
+			"color": "202020",
+			"hull": {
+				"x": 2, "y": 1, "z": 2,
+				"col": "$MOD_DATA/Objects/Mesh/Cylinder.obj"
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"buoyancy": 3,
+				"density": 1,
+				"durability": 7,
+				"friction": 2
+			},
+			"flammable": false,
+			"scripted": {
+				"filename": "$MOD_DATA/Scripts/ShaftNode.lua",
+				"classname": "ShaftNode"
+			}
+		},
+		{
+			"uuid": "d5a0f004-0004-4d53-8004-000000000004",
+			"name": "obj_effect_driveshaft",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/part_dif.png",
+									"$MOD_DATA/Objects/Textures/part_asg.png",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/Driveshaft.obj"
+					}
+				]
+			},
+			"color": "808080",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": { "buoyancy": 0, "density": 0, "durability": 0, "friction": 0 },
+			"flammable": false,
+			"showInInventory": false
+		},
+		{
+			"uuid": "d5a0f005-0005-4d53-8005-000000000005",
+			"name": "obj_effect_spider",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/part_dif.png",
+									"$MOD_DATA/Objects/Textures/part_asg.png",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/Spider.obj"
+					}
+				]
+			},
+			"color": "808080",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": { "buoyancy": 0, "density": 0, "durability": 0, "friction": 0 },
+			"flammable": false,
+			"showInInventory": false
+		},
+		{
+			"uuid": "d5a0f006-0006-4d53-8006-000000000006",
+			"name": "obj_effect_yoke",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/part_dif.png",
+									"$MOD_DATA/Objects/Textures/part_asg.png",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/Yoke.obj"
+					}
+				]
+			},
+			"color": "808080",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": { "buoyancy": 0, "density": 0, "durability": 0, "friction": 0 },
+			"flammable": false,
+			"showInInventory": false
+		}
+	]
+}
