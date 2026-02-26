@@ -57,7 +57,7 @@
 ### 手动安装
 1. 从 [Releases 页面]（链接待补充）下载最新版本的压缩包。
 2. 解压到游戏根目录下的 `Mods` 文件夹中，例如：
-   - Windows: `C:\Program Files (x86)\Steam\steamapps\common\Scrap Mechanic\Mods\`
+   - Windows: `C:\Users\用户\AppData\Roaming\Axolot Games\Scrap Mechanic\User\User_xxxxxxx\Save`
    - 确保文件夹结构为 `Mods/DriveShaft-Mod/`（包含 `Scripts` 等子文件夹）。
 3. 启动游戏，在 Mods 菜单中手动启用该模组。
 
