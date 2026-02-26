@@ -51,7 +51,7 @@
 
 ### 通过 Steam 创意工坊（推荐）
 1. 确保已安装《Scrap Mechanic》并登录 Steam。
-2. 访问创意工坊页面并订阅本模组：[点击此处订阅]（链接待补充）。
+2. 访问创意工坊页面并订阅本模组：[点击此处订阅]（https://steamcommunity.com/sharedfiles/filedetails/?id=3659722713&searchtext=）。
 3. 启动游戏，模组将自动下载并启用。
 
 ### 手动安装
