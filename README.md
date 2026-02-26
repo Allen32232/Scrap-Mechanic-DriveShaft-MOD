@@ -1,6 +1,6 @@
 # DriveShaft - 传动轴 Mod
 
-[![Steam 创意工坊](https://images.steamusercontent.com/ugc/15080976362163686270/1623C4A24BC635080E719154AF9AB552AF418B4B/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)  
+[![Steam 创意工坊](https://raw.githubusercontent.com/Allen32232/Scrap-Mechanic-DriveShaft-MOD/refs/heads/main/preview.jpg)  
 *让动力传递更灵活、更直观——告别笨重的传统轴承结构！*
 
 ---
