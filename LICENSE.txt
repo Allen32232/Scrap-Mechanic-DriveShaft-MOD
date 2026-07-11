@@ -1,0 +1,44 @@
+传动轴模组（DriveShaft）
+版权所有 © 2026 华华、喵子。保留所有权利。
+
+================================================================
+
+【中文】
+
+本模组的代码、贴图、文档，以及由作者原创的模型，均受著作权法保护，版权归作者所有。
+
+未经作者书面授权，禁止以任何形式复制、修改、再分发、反编译上述原创内容，或将其用于商业用途，亦不得将本模组搬运、上传至 Steam 创意工坊以外的任何平台。
+
+本模组通过 Steam 创意工坊分发，仅供个人非商业使用。
+
+模组中还包含若干第三方模型，其版权归各自原作者所有，本模组不对其主张权利。其中已获原作者授权使用并标注来源的部分如下：
+  · 发动机模型（ZhuaigeEngine.obj），作者：拽哥
+  · 硅油风扇模型（viscous_fan.fbx），来源：通用配件包
+  · 五叶螺旋桨模型（propeller_5.fbx），作者：新海，来源：通用配件包
+
+================================================================
+
+【English】
+
+The code, textures, documentation, and the models originally created by
+the authors in this mod are protected by copyright law and remain the
+property of the authors.
+
+Without the authors' written permission, the above original content may
+not be copied, modified, redistributed, decompiled, or used for
+commercial purposes, and this mod may not be reuploaded or distributed
+on any platform other than the Steam Workshop.
+
+This mod is distributed through the Steam Workshop for personal,
+non-commercial use only.
+
+This mod also includes several third-party models, which remain the
+property of their respective original authors; the mod claims no rights
+over them. Those used with the original authors' permission and credited
+are listed below:
+  - Engine model (ZhuaigeEngine.obj), by Zhuaige
+  - Viscous fan model (viscous_fan.fbx), from Universal Accessory Pack
+  - Five-blade propeller model (propeller_5.fbx), by Xinhai, from
+    Universal Accessory Pack
+
+================================================================
